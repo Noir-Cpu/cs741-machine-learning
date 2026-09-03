@@ -1,0 +1,22 @@
+{
+  "best_params": {
+    "tree__criterion": "entropy",
+    "tree__max_depth": 20,
+    "tree__min_samples_leaf": 1
+  },
+  "fold_mean": {
+    "test_accuracy": 0.7592348918047384,
+    "test_f1_macro": 0.5757102477899623,
+    "test_f1_weighted": 0.7903126298637104,
+    "test_balanced_accuracy": 0.6085918231024239
+  },
+  "fold_std": {
+    "test_accuracy": 0.004782230735138928,
+    "test_f1_macro": 0.006323666296130239,
+    "test_f1_weighted": 0.0029663231930805215,
+    "test_balanced_accuracy": 0.008016034608466959
+  },
+  "overall_accuracy": 0.7596954279260923,
+  "overall_macro_f1": 0.5761431884582648,
+  "overall_balanced_accuracy": 0.6097866494507376
+}

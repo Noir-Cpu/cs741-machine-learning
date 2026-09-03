@@ -1,0 +1,8 @@
+{
+  "best_params": {
+    "knn__metric": "manhattan",
+    "knn__n_neighbors": 5,
+    "knn__weights": "distance"
+  },
+  "best_cv_macro_f1": 0.5263777389044357
+}

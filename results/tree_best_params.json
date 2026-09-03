@@ -1,0 +1,8 @@
+{
+  "best_params": {
+    "tree__criterion": "entropy",
+    "tree__max_depth": 20,
+    "tree__min_samples_leaf": 1
+  },
+  "best_cv_macro_f1": 0.5763478879671664
+}
