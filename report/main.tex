@@ -21,7 +21,7 @@ Email: 22677267@sun.ac.za}
 }
 
 \maketitle
-\footnotetext[1]{Source code available at https://github.com/Noir-Cpu/cs741-assignment2.}
+\footnotetext[1]{Source code available at https://github.com/Noir-Cpu/cs741-machine-learning.}
 
 \begin{abstract}
 Network intrusion detection relies on classification models trained to separate normal traffic from attack traffic, and the quality of the descriptive features used for training limits how reliable such a model can be. K-nearest neighbours and a classification tree respond differently to the same data-quality issues, since one classifies by distance between instances and the other by ordered threshold tests. This report investigated which of the two algorithms classified attack traffic more effectively under pre-processing matched to the distance sensitivity of each algorithm, using a version of the UNSW-NB15 network traffic data set, a data set with a severely imbalanced target class distribution. Both algorithms were tuned through a control parameter search under cross-validation, then compared under a repeated stratified partition across four performance measures. The classification tree reached a higher macro-averaged F1 score and balanced accuracy than k-nearest neighbours, a margin found to be statistically significant, while k-nearest neighbours reached a marginally higher plain accuracy. The findings indicated that the class-weighted training criterion of the tree protected the least frequent attack categories more effectively than the distance-weighted voting of k-nearest neighbours: distance weighting corrected for the proximity of neighbours, not for how often each class occurred among the neighbours found.
